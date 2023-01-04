@@ -1,8 +1,6 @@
 # andy_wallet
-<<<<<<< HEAD
-#Acá se realiza un wallet posiblemente para manejo de criptomonedas o solo transacciones contra algún backend.
-#Eso está por verse xD.
-=======
+
+#Acá se va a hacer una Wallet, de cripto o lo que sea. xD
 
 A new Flutter project.
 
@@ -18,4 +16,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
->>>>>>> 767732a (First commit)
