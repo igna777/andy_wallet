@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -53,6 +55,28 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                if (Form.of(context)?.validate() != null) {
+                  Form.of(context)?.save();
+                  log('Form is valid');
+                  Navigator.pushNamed(context, '/home');
+                } else {
+                  log('Form is invalid');
+                }
+              },
+              style: ButtonStyle(
+                elevation: MaterialStateProperty.all(5.0),
+                backgroundColor: MaterialStateProperty.all(Colors.black),
+                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18.0),
+                  ),
+                ),
+              ),
+              child: const Text('Login',
+                  style: TextStyle(fontSize: 16, color: Colors.white)),
             )
           ],
         ),
