@@ -35,13 +35,13 @@ class _LoginScreenState extends State<LoginScreen> {
                     color: Colors.white),
               ),
             ),
-            Padding(
+            /* Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Image.asset(
                   "assets/images/ethereum.png",
                   width: 100,
                   height: 100,
-                )),
+                )), */
             const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
