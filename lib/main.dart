@@ -7,6 +7,8 @@ void main() {
   runApp(const MyApp());
 }
 
+//TODO:hacer el splash screen.
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
