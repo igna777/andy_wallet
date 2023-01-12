@@ -12,6 +12,8 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   bool _oscureText = true;
 
+  //TODO:empezamos a refactorizar el codigo.
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
