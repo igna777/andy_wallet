@@ -25,6 +25,33 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(
+                'Andy Wallet',
+                style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+            ),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset(
+                  "images/login_user.jpg",
+                  width: 100,
+                  height: 100,
+                )),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(
+                'Login',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextFormField(
